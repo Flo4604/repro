@@ -41,8 +41,8 @@ app.doc31("/openapi.json", (_c) => ({
 }));
 
 const port = Number(process.env.PORT) || 3000;
-serve({ fetch: app.fetch, port }, () => {
-  console.log(`Server running on port ${port}`);
-});
+// serve({ fetch: app.fetch, port }, () => {
+//  console.log(`Server running on port ${port}`);
+// });
 
 export default app;
